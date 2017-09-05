@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+       #sub1, #sub2, #sub3, #sub4
+        {
+          width: 25%;
+          height: 75px;
+          border-width: 1px;
+          border-color:  white;
+          border-style: solid;
+          box-sizing:border-box;
+        }
+      #sub1
+        {
+         border-top-left-radius: 10px;
+    	 border-bottom-left-radius: 10px;
+    	 float: left;
+	    }
+	  #sub2 
+	    {
+         float: left;
+        }
+      #sub3
+        {
+         float: left;
+        }
+	  #sub4 
+	    {
+         border-top-right-radius: 10px;
+         border-bottom-right-radius: 10px;
+         float: left;
+        }
+    </style>
+    <script type="text/javascript">
+    	function show_div()
+    	{
+    		document.getElementById('fil').style.display = "block";
+    	}
+    </script>
+
+ </head>
+ <body>
+	
+
+
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+      	<div class="navbar-header">
+      	<a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+    	<ul class="nav navbar-nav">
+      	  <li><a href="#">Home</a></li>
+      	  <li><a href="#">Options</a></li>
+          <li class="active"><a href="#">Reports</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    	 
+    	
+
+	<div class="container">
+    	<h3><b> Filter Employees By: </b></h3>
+  	   	<button onclick="show_div();" class="btn btn-primary" type="button">Select
+  	   	</button>
+
+    </div>
+    <br/>
+    <br/>
+   
+   
+
+   <div id="fil" style="display:none;">
+   	<div class="container">
+  		<div id="sub1">
+  			<div class="dropdown">
+  	   			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Experience
+         		<span class="caret"></span></button>
+ 				<ul class="dropdown-menu">
+	   				<li><a href="#">1 Year</a></li>
+	    			<li><a href="#">2 Years</a></li>
+	    			<li><a href="#">3 Years</a></li>
+	    			<li><a href="#">4 Years</a></li>
+	    			<li><a href="#">5 Years</a></li>
+	  			</ul>
+        	</div>
+        </div>	
+       
+        <div id="sub2">
+        	<div class="dropdown">
+         		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Specialization
+         		<span class="caret"></span></button>
+ 			 	<ul class="dropdown-menu">
+	   				<li><a href="#">Testing</a></li>
+	    			<li><a href="#">Development</a></li>
+	    			<li><a href="#">Photoshop</a></li>
+	    			<li><a href="#">Animation</a></li>
+	    			<li><a href="#">Database</a></li>
+	  		 	</ul>
+        	</div>
+        </div>
+        
+        <div id="sub3">	
+         	<div class="dropdown">
+         		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">A/I
+         		<span class="caret"></span></button>
+ 				<ul class="dropdown-menu">
+	   				<li><a href="#">Active</a></li>
+	    			<li><a href="#">Inactive</a></li>
+	    		</ul>
+         	</div>
+        </div>
+
+        <div id="sub4">
+         	<div class="dropdown">
+         		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Designation
+         		<span class="caret"></span></button>
+ 			 	<ul class="dropdown-menu">
+	   				<li><a href="#">Chief</a></li>
+	    			<li><a href="#">Executive</a></li>
+	    			<li><a href="#">Manager</a></li>
+	    			<li><a href="#">Assistant</a></li>
+	    			<li><a href="#">Fresher</a></li>
+	  		 	</ul>
+        	</div>
+        </div>
+     </div>
+    </div>
+
+
+
+
+
+   <div class="container">
+        <table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Employee Name</th>
+        			<th>Employee Address</th>
+        			<th>DOB</th>
+        			<th>Experience</th>
+        			<th>Specialization</th>
+        			<th>Salary</th>
+        			<th>Date</th>
+        			<th>A/I</th>
+        			<th>Designation</th>
+      			</tr>
+    		</thead>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    		<tr>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    			<td></td>
+    		</tr>
+    	</table>
+	</div>
+ </body>
+</html>
+
+
+
+    
+
